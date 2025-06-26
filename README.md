@@ -11,17 +11,15 @@
   - [Vulnerability Assessment](#vulnerability-assessment)  
   - [Exploitation Frameworks](#exploitation-frameworks)  
   - [Password Cracking](#password-cracking)  
+  - [Network & IDS Tools](#network--ids-tools)  
 - [Logging & SIEM](#logging--siem)  
-  - [Splunk Queries](#splunk-queries)  
-  - [Sysmon Logging](#sysmon-logging)  
-  - [Other SIEM & Rule Conversion](#other-siem--rule-conversion)  
 - [Threat Hunting & Detection Engineering](#threat-hunting--detection-engineering)  
 - [Purple-Team Collaboration](#purple-team-collaboration)  
 - [DFIR Case Management & Automation](#dfir-case-management--automation)  
 - [Cloud Security & CSPM](#cloud-security--cspm)  
-- [Endpoint Telemetry & EDR](#endpoint-telemetry--edr)
-- [Deployment & Self-Hosting](#deployment-self-hosting)
-
+- [Endpoint Telemetry & EDR](#endpoint-telemetry--edr)  
+- [Configuration Management & Automation](#configuration-management--automation)  
+- [Deployment & Self-Hosting](#deployment-self-hosting)  
 
 ---
 
@@ -207,7 +205,7 @@
 
 - **Malware-Traffic-Analysis.net**  
   Free PCAPs & network traffic tutorials.  
-  [malware-traffic-analysis.net](https://www.malware-traffic-analysis.net/)
+  [malware-traffic-analysis.net](https://malware-traffic-analysis.net/)
 
 - **MetaDefender Cloud OPSWAT**  
   Multi-engine file/URL/hash scanning.  
@@ -499,65 +497,72 @@
 
 </details>  
 
+<!-- Network & IDS Tools -->  
+<a name="network--ids-tools"></a>  
+## Network & IDS Tools
+
+<details>  
+<summary>Network Detection & Simulation</summary>
+
+- **Metron**  
+  Open-source network security analytics platform (Kafka + Storm + HBase).  
+  [apache/metron](https://github.com/apache/metron)
+
+- **Snort**  
+  High-performance network IDS/IPS, also used in red-team labs.  
+  [SnortOrg/snort3](https://github.com/SnortOrg/snort3)
+
+- **Suricata**  
+  Next-generation network IDS/IPS and network security monitoring.  
+  [OISF/suricata](https://github.com/OISF/suricata)
+
+</details>  
+
 ---
 
 <!-- Logging & SIEM -->  
 <a name="logging--siem"></a>  
 # 📊 Logging & SIEM  
-**Purpose:** Centralized log analysis and detection content.
-
-<!-- Splunk Queries -->  
-<a name="splunk-queries"></a>  
-## Splunk Queries
+**Purpose:** Centralized log analysis, intrusion detection, and alerting.
 
 <details>  
-<summary>Community & Official Queries</summary>
+<summary>Open-Source SIEM & IDS</summary>
 
-- **GoSplunk**  
-  Community-posted Splunk queries.  
-  [GoSplunk](https://gosplunk.com/)
+- **Elasticsearch**  
+  Distributed search & analytics engine, core of the ELK stack.  
+  [elastic/elasticsearch](https://github.com/elastic/elasticsearch)
 
-- **shauntdergrigorian/splunkqueries**  
-  Curated threat-hunting queries.  
-  [splunkqueries](https://github.com/shauntdergrigorian/splunkqueries)
+- **Falco**  
+  Cloud-native runtime security engine for intrusion & anomaly detection.  
+  [falcosecurity/falco](https://github.com/falcosecurity/falco)
 
-- **Splunk Security Content**  
-  Official detection searches & dashboards.  
-  [Splunk Security Content](https://research.splunk.com/)
+- **Grafana**  
+  Visualization & dashboarding for metrics & logs.  
+  [grafana/grafana](https://github.com/grafana/grafana)
 
-- **Splunk Security Essentials**  
-  App with guided detections & searches.  
-  [Security Essentials](https://splunkbase.splunk.com/app/3435/)
+- **Graylog**  
+  Log management platform built on Elasticsearch, MongoDB, and Kafka.  
+  [Graylog2/graylog2-server](https://github.com/Graylog2/graylog2-server)
 
-</details>  
+- **Logstash**  
+  Pipeline for ingesting, transforming, and shipping logs.  
+  [elastic/logstash](https://github.com/elastic/logstash)
 
-<!-- Sysmon Logging -->  
-<a name="sysmon-logging"></a>  
-## Sysmon Logging
+- **Loki**  
+  Multi-tenant log aggregation system inspired by Prometheus.  
+  [grafana/loki](https://github.com/grafana/loki)
 
-<details>  
-<summary>Sysmon Configurations</summary>
+- **Prometheus**  
+  Metrics-focused time-series database with PromQL.  
+  [prometheus/prometheus](https://github.com/prometheus/prometheus)
 
-- **SwiftOnSecurity/sysmon-config**  
-  High-signal Sysmon configuration.  
-  [SwiftOnSecurity](https://github.com/SwiftOnSecurity/sysmon-config)
+- **Security Onion**  
+  All-in-one distro for IDS (Zeek, Suricata), log management, and more.  
+  [Security-Onion-Solutions/security-onion](https://github.com/Security-Onion-Solutions/security-onion)
 
-- **olafhartong/sysmon-modular**  
-  Modular Sysmon ruleset.  
-  [sysmon-modular](https://github.com/olafhartong/sysmon-modular)
-
-</details>  
-
-<!-- Other SIEM & Rule Conversion -->  
-<a name="other-siem--rule-conversion"></a>  
-## Other SIEM & Rule Conversion
-
-<details>  
-<summary>Rule Conversion & Helpers</summary>
-
-- **Uncoder.IO**  
-  Convert Sigma rules to SIEM query languages.  
-  [Uncoder.IO](https://uncoder.io/)
+- **Zeek**  
+  Powerful network traffic analysis framework.  
+  [zeek/zeek](https://github.com/zeek/zeek)
 
 </details>  
 
@@ -607,6 +612,10 @@
 <details>  
 <summary>Purple Team Tooling</summary>
 
+- **AttackIQ**  
+  Commercial breach-and-attack emulation with reporting.  
+  [AttackIQ](https://www.attackiq.com/)
+
 - **Atomic Red Team**  
   Library of small, scriptable tests mapped to MITRE ATT&CK.  
   [RedCanaryLabs/atomic-red-team](https://github.com/redcanarylabs/atomic-red-team)
@@ -618,10 +627,6 @@
 - **PurpleSharp**  
   .NET red-blue operations framework for Windows environments.  
   [flanglet/PurpleSharp](https://github.com/flanglet/PurpleSharp)
-
-- **AttackIQ**  
-  Commercial breach-and-attack emulation with reporting.  
-  [AttackIQ](https://www.attackiq.com/)
 
 </details>  
 
@@ -711,6 +716,14 @@
   SQL interface for live endpoint state and drift detection.  
   [osquery/osquery](https://github.com/osquery/osquery)
 
+- **OSSEC**  
+  Host-based intrusion detection system (HIDS) for log analysis & file integrity.  
+  [ossec/ossec-hids](https://github.com/ossec/ossec-hids)
+
+- **Security Onion**  
+  Bundles host sensors (Wazuh/OSSEC agents) plus network IDS.  
+  [Security-Onion-Solutions/security-onion](https://github.com/Security-Onion-Solutions/security-onion)
+
 - **Sysmon**  
   Windows system monitor for detailed process & network logs.  
   [SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
@@ -721,12 +734,38 @@
 
 </details>  
 
-<!-- Deployment & Self-Hosting -->
-<a name="deployment-self-hosting"></a>
+---
+
+<!-- Configuration Management & Automation -->  
+<a name="configuration-management--automation"></a>  
+# 🔧 Configuration Management & Automation  
+**Purpose:** Infrastructure-as-code and orchestration for security deployments.
+
+<details>  
+<summary>Infra-as-Code & Orchestration</summary>
+
+- **Ansible**  
+  Agentless automation & orchestration.  
+  [ansible/ansible](https://github.com/ansible/ansible)
+
+- **Pulumi**  
+  Code-based infra-as-code using familiar programming languages.  
+  [pulumi/pulumi](https://github.com/pulumi/pulumi)
+
+- **Terraform**  
+  Infrastructure as code across cloud & on-prem.  
+  [hashicorp/terraform](https://github.com/hashicorp/terraform)
+
+</details>  
+
+---
+
+<!-- Deployment & Self-Hosting -->  
+<a name="deployment-self-hosting"></a>  
 # 🛠️ Deployment & Self-Hosting  
 **Purpose:** Guides and best practices for self-hosting security tools and related services.
 
-<details>
+<details>  
 <summary>Guides & Repositories</summary>
 
 - **Self-Hosting-Guide**  
@@ -734,4 +773,3 @@
   [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
 
 </details>
-
