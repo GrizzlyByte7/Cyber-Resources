@@ -528,31 +528,36 @@
 
 ---
 
+
 # 🔍 Threat Hunting & Detection Engineering  
 **Purpose:** Hunt for anomalies, author detection rules, automate alerting.
 
 <details>
 <summary>Hunting Frameworks & Rule Engines</summary>
 
-- **Sigma**  
-  Generic YAML-based detection rule format, convert to any SIEM.  
-  [SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)
+- **BLTools**  
+  Collection of blue-team utilities for log parsing, threat hunting, and incident-response automation.  
+  [KingYawnus/BLTools](https://github.com/KingYawnus/BLTools)
 
 - **ElastAlert**  
   Alerting on Elasticsearch query results, pipeline detections.  
   [Yelp/elastalert](https://github.com/Yelp/elastalert)
 
-- **Wazuh Ruleset**  
-  Open-source HIDS with built-in rules for Windows/Linux logs.  
-  [wazuh/wazuh](https://github.com/wazuh/wazuh)
+- **Merlin**  
+  In-memory command and control detection framework.  
+  [Ne0nd0g/merlin](https://github.com/Ne0nd0g/merlin)
 
 - **OpenSOC**  
   Automated streaming analytics for large-scale hunting.  
   [OpenSOC](https://github.com/OpenSOC/OpenSOC)
 
-- **Merlin**  
-  In-memory command and control detection framework.  
-  [Ne0nd0g/merlin](https://github.com/Ne0nd0g/merlin)
+- **Sigma**  
+  Generic YAML-based detection rule format, convert to any SIEM.  
+  [SigmaHQ/sigma](https://github.com/SigmaHQ/sigma)
+
+- **Wazuh Ruleset**  
+  Open-source HIDS with built-in rules for Windows/Linux logs.  
+  [wazuh/wazuh](https://github.com/wazuh/wazuh)
 </details>
 
 ---
