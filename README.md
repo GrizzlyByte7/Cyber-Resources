@@ -19,7 +19,9 @@
 - [Purple-Team Collaboration](#purple-team-collaboration)  
 - [DFIR Case Management & Automation](#dfir-case-management--automation)  
 - [Cloud Security & CSPM](#cloud-security--cspm)  
-- [Endpoint Telemetry & EDR](#endpoint-telemetry--edr)  
+- [Endpoint Telemetry & EDR](#endpoint-telemetry--edr)
+- [Deployment & Self-Hosting](#deployment-self-hosting)
+
 
 ---
 
@@ -718,3 +720,18 @@
   [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor)
 
 </details>  
+
+<!-- Deployment & Self-Hosting -->
+<a name="deployment-self-hosting"></a>
+# 🛠️ Deployment & Self-Hosting  
+**Purpose:** Guides and best practices for self-hosting security tools and related services.
+
+<details>
+<summary>Guides & Repositories</summary>
+
+- **Self-Hosting-Guide**  
+  Comprehensive community-curated guide to self-host popular web applications and services, including security platforms.  
+  [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
+
+</details>
+
