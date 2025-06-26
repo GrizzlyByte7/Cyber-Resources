@@ -1,35 +1,34 @@
-*This is a working list. I add to it as I find new tools and resources.*  
-<br/>
-
 ## 📑 Table of Contents  
-- [Forensics & Imaging](#🕵️-forensics--imaging)  
-- [Hex Editors](#🔢-hex-editors)  
-- [Malware Analysis](#🦠-malware-analysis)  
-- [Memory Forensics](#🧠-memory-forensics)  
-- [OSINT](#🕸️-osint)  
-- [Windows Artifact Analysis](#📂-windows-artifact-analysis)  
-- [Attack Simulation & Offense](#🚩-attack-simulation--offense)  
+- [Forensics & Imaging](#forensics-imaging)  
+- [Hex Editors](#hex-editors)  
+- [Malware Analysis](#malware-analysis)  
+- [Memory Forensics](#memory-forensics)  
+- [OSINT](#osint)  
+- [Windows Artifact Analysis](#windows-artifact-analysis)  
+- [Attack Simulation & Offense](#attack-simulation--offense)  
   - [Reconnaissance](#reconnaissance-information-gathering)  
   - [Scanning & Enumeration](#scanning--enumeration)  
   - [Vulnerability Assessment](#vulnerability-assessment)  
   - [Exploitation Frameworks](#exploitation-frameworks)  
   - [Password Cracking](#password-cracking)  
-- [Logging & SIEM](#📊-logging--siem)  
+- [Logging & SIEM](#logging--siem)  
   - [Splunk Queries](#splunk-queries)  
   - [Sysmon Logging](#sysmon-logging)  
   - [Other SIEM & Rule Conversion](#other-siem--rule-conversion)  
-- [Threat Hunting & Detection Engineering](#🔍-threat-hunting--detection-engineering)  
-- [Purple-Team Collaboration](#🎭-purple-team-collaboration)  
-- [DFIR Case Management & Automation](#🗂️-dfir-case-management--automation)  
-- [Cloud Security & CSPM](#☁️-cloud-security--cspm)  
-- [Endpoint Telemetry & EDR](#⚙️-endpoint-telemetry--edr)  
+- [Threat Hunting & Detection Engineering](#threat-hunting--detection-engineering)  
+- [Purple-Team Collaboration](#purple-team-collaboration)  
+- [DFIR Case Management & Automation](#dfir-case-management--automation)  
+- [Cloud Security & CSPM](#cloud-security--cspm)  
+- [Endpoint Telemetry & EDR](#endpoint-telemetry--edr)  
 
 ---
 
+<!-- Forensics & Imaging -->  
+<a name="forensics-imaging"></a>  
 # 🕵️ Forensics & Imaging  
 **Purpose:** Disk and memory acquisition, file carving, artifact parsing, and image analysis.
 
-<details>
+<details>  
 <summary>Tools & Frameworks</summary>
 
 - **Aorimn/Dislocker**  
@@ -112,14 +111,16 @@
   Reconstruct emails, web pages, VoIP from packet captures.  
   [Xplico](http://www.xplico.org/)
 
-</details>
+</details>  
 
 ---
 
+<!-- Hex Editors -->  
+<a name="hex-editors"></a>  
 # 🔢 Hex Editors  
 **Purpose:** Binary and disk editing at the byte level.
 
-<details>
+<details>  
 <summary>List of Hex Editors</summary>
 
 - **010 Editor**  
@@ -138,14 +139,16 @@
   Free, fast Windows hex & disk editor handling huge files.  
   [HxD](https://mh-nexus.de/en/hxd/)
 
-</details>
+</details>  
 
 ---
 
+<!-- Malware Analysis -->  
+<a name="malware-analysis"></a>  
 # 🦠 Malware Analysis  
 **Purpose:** Disassembly, sandboxing, and metadata extraction.
 
-<details>
+<details>  
 <summary>Core Tools</summary>
 
 - **Any.Run**  
@@ -220,14 +223,16 @@
   Multi-AV file/URL/hash scanning.  
   [VirusTotal](https://www.virustotal.com/)
 
-</details>
+</details>  
 
 ---
 
+<!-- Memory Forensics -->  
+<a name="memory-forensics"></a>  
 # 🧠 Memory Forensics  
 **Purpose:** Acquire & analyze volatile memory images.
 
-<details>
+<details>  
 <summary>Memory Tools</summary>
 
 - **FireEye Freeware Apps**  
@@ -250,14 +255,16 @@
   Compare memory images to find anomalies.  
   [VolDiff](https://github.com/aim4r/VolDiff)
 
-</details>
+</details>  
 
 ---
 
+<!-- OSINT -->  
+<a name="osint"></a>  
 # 🕸️ OSINT  
 **Purpose:** Open-source intelligence gathering & link analysis.
 
-<details>
+<details>  
 <summary>OSINT Frameworks & Tools</summary>
 
 - **IntelTechniques Search Tool**  
@@ -296,14 +303,16 @@
   Domain, email, and username collector.  
   [theHarvester](https://github.com/laramies/theHarvester)
 
-</details>
+</details>  
 
 ---
 
+<!-- Windows Artifact Analysis -->  
+<a name="windows-artifact-analysis"></a>  
 # 📂 Windows Artifact Analysis  
 **Purpose:** Extract & parse Windows-specific forensic artifacts.
 
-<details>
+<details>  
 <summary>Windows Artifact Tools</summary>
 
 - **KAPE**  
@@ -326,15 +335,20 @@
   Registry parsing & reporting framework.  
   [RegRipper 3.0](https://github.com/keydet89/RegRipper3.0)
 
-</details>
+</details>  
 
 ---
 
-# 🚩 Attack Simulation & Offense 🚩  
+<!-- Attack Simulation & Offense -->  
+<a name="attack-simulation--offense"></a>  
+# 🚩 Attack Simulation & Offense  
 **Purpose:** Recon, scanning, exploitation, and red-team training platforms.
 
-### Reconnaissance (Information Gathering)  
-<details>
+<!-- Reconnaissance -->  
+<a name="reconnaissance-information-gathering"></a>  
+## Reconnaissance (Information Gathering)
+
+<details>  
 <summary>Reconnaissance Tools</summary>
 
 - **Amass**  
@@ -349,10 +363,6 @@
   Subdomain discovery.  
   [Assetfinder](https://github.com/tomnomnom/assetfinder)
 
-- **WhereToGo**  
-  Curated list of popular corporate services to test for compromised-account pivot points.  
-  [valeriyshevchenko90/WhereToGo](https://github.com/valeriyshevchenko90/WhereToGo)
-
 - **crt.sh**  
   Certificate transparency log lookup.  
   [crt.sh](https://crt.sh/)
@@ -362,11 +372,11 @@
   [CloudSploit](https://github.com/aquasecurity/cloudsploit)
 
 - **Fierce**  
-  DNS & directory brute‐forcing.  
+  DNS & directory brute-forcing.  
   [Fierce](https://github.com/mschwager/fierce)
 
 - **Maltego**  
-  Link‐analysis graphing.  
+  Link-analysis graphing.  
   [Maltego](https://www.maltego.com/)
 
 - **Shodan**  
@@ -381,19 +391,34 @@
   Email & domain harvesting.  
   [theHarvester](https://github.com/laramies/theHarvester)
 
-</details>
+- **WhereToGo**  
+  Curated list of popular corporate services to test for compromised-account pivot points.  
+  [valeriyshevchenko90/WhereToGo](https://github.com/valeriyshevchenko90/WhereToGo)
 
----
+</details>  
 
-</details>
+<!-- Scanning & Enumeration -->  
+<a name="scanning--enumeration"></a>  
+## Scanning & Enumeration
 
-### Scanning & Enumeration  
-<details>
+<details>  
 <summary>Port & Service Scanners</summary>
+
+- **enum4linux-ng**  
+  SMB/NetBIOS enumeration on Linux.  
+  [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
+
+- **LDAPDomainDump**  
+  Dump Active Directory via LDAP.  
+  [LDAPDomainDump](https://github.com/dirkjanm/ldapdomaindump)
 
 - **Masscan**  
   Internet-wide SYN scanner.  
   [Masscan](https://github.com/robertdavidgraham/masscan)
+
+- **Netdiscover**  
+  Passive ARP-based host discovery.  
+  [Netdiscover](https://github.com/alexxy/netdiscover)
 
 - **Nmap**  
   Host discovery & port scanning.  
@@ -403,22 +428,13 @@
   Fast port scanning with Nmap integration.  
   [RustScan](https://github.com/RustScan/RustScan)
 
-- **Netdiscover**  
-  Passive ARP-based host discovery.  
-  [Netdiscover](https://github.com/alexxy/netdiscover)
+</details>  
 
-- **LDAPDomainDump**  
-  Dump Active Directory via LDAP.  
-  [LDAPDomainDump](https://github.com/dirkjanm/ldapdomaindump)
+<!-- Vulnerability Assessment -->  
+<a name="vulnerability-assessment"></a>  
+## Vulnerability Assessment
 
-- **enum4linux-ng**  
-  SMB/NetBIOS enumeration on Linux.  
-  [enum4linux-ng](https://github.com/cddmp/enum4linux-ng)
-
-</details>
-
-### Vulnerability Assessment  
-<details>
+<details>  
 <summary>Vulnerability Scanners</summary>
 
 - **CloudSploit**  
@@ -433,15 +449,14 @@
   Automated pentest scanner.  
   [Sn1per](https://github.com/1N3/Sn1per)
 
-</details>
+</details>  
 
-### Exploitation Frameworks  
-<details>
+<!-- Exploitation Frameworks -->  
+<a name="exploitation-frameworks"></a>  
+## Exploitation Frameworks
+
+<details>  
 <summary>Penetration Test Suites</summary>
-
-- **Metasploit**  
-  Exploit development & execution framework.  
-  [Metasploit](https://www.metasploit.com/)
 
 - **Cobalt Strike**  
   Commercial red-team & adversary simulation tool.  
@@ -451,11 +466,18 @@
   Python network protocols for pentesting.  
   [Impacket](https://github.com/SecureAuthCorp/impacket)
 
-</details>
+- **Metasploit**  
+  Exploit development & execution framework.  
+  [Metasploit](https://www.metasploit.com/)
 
-### Password Cracking  
-<details>
-<summary>Cracking & Brute‐Force Tools</summary>
+</details>  
+
+<!-- Password Cracking -->  
+<a name="password-cracking"></a>  
+## Password Cracking
+
+<details>  
+<summary>Cracking & Hash Tools</summary>
 
 - **CredMaster**  
   AWS-based password spraying tool with dynamic proxy rotation (FireProx) to evade throttling.  
@@ -473,15 +495,20 @@
   Parallel login brute-forcer.  
   [Medusa](https://github.com/jmk-foofus/medusa)
 
-</details>
+</details>  
 
 ---
 
+<!-- Logging & SIEM -->  
+<a name="logging--siem"></a>  
 # 📊 Logging & SIEM  
 **Purpose:** Centralized log analysis and detection content.
 
-### Splunk Queries  
-<details>
+<!-- Splunk Queries -->  
+<a name="splunk-queries"></a>  
+## Splunk Queries
+
+<details>  
 <summary>Community & Official Queries</summary>
 
 - **GoSplunk**  
@@ -500,10 +527,13 @@
   App with guided detections & searches.  
   [Security Essentials](https://splunkbase.splunk.com/app/3435/)
 
-</details>
+</details>  
 
-### Sysmon Logging  
-<details>
+<!-- Sysmon Logging -->  
+<a name="sysmon-logging"></a>  
+## Sysmon Logging
+
+<details>  
 <summary>Sysmon Configurations</summary>
 
 - **SwiftOnSecurity/sysmon-config**  
@@ -514,25 +544,29 @@
   Modular Sysmon ruleset.  
   [sysmon-modular](https://github.com/olafhartong/sysmon-modular)
 
-</details>
+</details>  
 
-### Other SIEM & Rule Conversion  
-<details>
+<!-- Other SIEM & Rule Conversion -->  
+<a name="other-siem--rule-conversion"></a>  
+## Other SIEM & Rule Conversion
+
+<details>  
 <summary>Rule Conversion & Helpers</summary>
 
 - **Uncoder.IO**  
   Convert Sigma rules to SIEM query languages.  
   [Uncoder.IO](https://uncoder.io/)
 
-</details>
+</details>  
 
 ---
 
-
+<!-- Threat Hunting & Detection Engineering -->  
+<a name="threat-hunting--detection-engineering"></a>  
 # 🔍 Threat Hunting & Detection Engineering  
 **Purpose:** Hunt for anomalies, author detection rules, automate alerting.
 
-<details>
+<details>  
 <summary>Hunting Frameworks & Rule Engines</summary>
 
 - **BLTools**  
@@ -558,14 +592,17 @@
 - **Wazuh Ruleset**  
   Open-source HIDS with built-in rules for Windows/Linux logs.  
   [wazuh/wazuh](https://github.com/wazuh/wazuh)
-</details>
+
+</details>  
 
 ---
 
+<!-- Purple-Team Collaboration -->  
+<a name="purple-team-collaboration"></a>  
 # 🎭 Purple-Team Collaboration  
 **Purpose:** Share detections, adversary emulations, exercises.
 
-<details>
+<details>  
 <summary>Purple Team Tooling</summary>
 
 - **Atomic Red Team**  
@@ -583,19 +620,22 @@
 - **AttackIQ**  
   Commercial breach-and-attack emulation with reporting.  
   [AttackIQ](https://www.attackiq.com/)
-</details>
+
+</details>  
 
 ---
 
+<!-- DFIR Case Management & Automation -->  
+<a name="dfir-case-management--automation"></a>  
 # 🗂️ DFIR Case Management & Automation  
 **Purpose:** Track investigations, share IOCs, automate repetitive tasks.
 
-<details>
+<details>  
 <summary>Case & IOC Platforms</summary>
 
-- **TheHive**  
-  Scalable, open-source incident response platform.  
-  [TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive)
+- **AutoIR**  
+  Playbook-driven automation for containment & evidence collection.  
+  [AutoIR](https://github.com/COOLSec/AutoIR)
 
 - **Cortex**  
   TheHive’s analysis engine for tasks (VirusTotal, MISP lookups, etc.).  
@@ -605,30 +645,25 @@
   Threat-sharing platform for IOCs, campaigns, sightings.  
   [MISP/MISP](https://github.com/MISP/MISP)
 
+- **TheHive**  
+  Scalable, open-source incident response platform.  
+  [TheHive-Project/TheHive](https://github.com/TheHive-Project/TheHive)
+
 - **Timesketch**  
   Collaborative forensic timeline analysis.  
   [google/timesketch](https://github.com/google/timesketch)
 
-- **AutoIR**  
-  Playbook-driven automation for containment & evidence collection.  
-  [AutoIR](https://github.com/COOLSec/AutoIR)
-</details>
+</details>  
 
 ---
 
+<!-- Cloud Security & CSPM -->  
+<a name="cloud-security--cspm"></a>  
 # ☁️ Cloud Security & CSPM  
 **Purpose:** Discover misconfigs, monitor cloud activity, enforce posture.
 
-<details>
+<details>  
 <summary>Cloud Detection & Posture Tools</summary>
-
-- **ScoutSuite**  
-  Multi-cloud security auditor for AWS, GCP, Azure.  
-  [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
-
-- **Prowler**  
-  AWS CIS-benchmark checks & threat detections.  
-  [toniblyx/prowler](https://github.com/toniblyx/prowler)
 
 - **Cartography**  
   Graph-based inventory of cloud assets & relationships.  
@@ -641,33 +676,45 @@
 - **KICS**  
   Infrastructure-as-code scanning for security issues.  
   [Checkmarx/kics](https://github.com/Checkmarx/kics)
-</details>
+
+- **Prowler**  
+  AWS CIS-benchmark checks & threat detections.  
+  [toniblyx/prowler](https://github.com/toniblyx/prowler)
+
+- **ScoutSuite**  
+  Multi-cloud security auditor for AWS, GCP, Azure.  
+  [nccgroup/ScoutSuite](https://github.com/nccgroup/ScoutSuite)
+
+</details>  
 
 ---
 
+<!-- Endpoint Telemetry & EDR -->  
+<a name="endpoint-telemetry--edr"></a>  
 # ⚙️ Endpoint Telemetry & EDR  
 **Purpose:** Collect detailed host data, hunt across endpoints.
 
-<details>
+<details>  
 <summary>EDR & Telemetry Tools</summary>
-
-- **Velociraptor**  
-  Endpoint monitoring & collection, custom hunts via VQL.  
-  [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor)
-
-- **Osquery**  
-  SQL interface for live endpoint state and drift detection.  
-  [osquery/osquery](https://github.com/osquery/osquery)
-
-- **GRR Rapid Response**  
-  Enterprise-scale remote live forensics & triage.  
-  [google/grr](https://github.com/google/grr)
 
 - **FleetDM**  
   osquery fleet management, query scheduling & reporting.  
   [fleetdm/fleet](https://github.com/fleetdm/fleet)
 
+- **GRR Rapid Response**  
+  Enterprise-scale remote live forensics & triage.  
+  [google/grr](https://github.com/google/grr)
+
+- **Osquery**  
+  SQL interface for live endpoint state and drift detection.  
+  [osquery/osquery](https://github.com/osquery/osquery)
+
 - **Sysmon**  
   Windows system monitor for detailed process & network logs.  
   [SwiftOnSecurity/sysmon-config](https://github.com/SwiftOnSecurity/sysmon-config)
-</details>
+
+- **Velociraptor**  
+  Endpoint monitoring & collection, custom hunts via VQL.  
+  [Velocidex/velociraptor](https://github.com/Velocidex/velociraptor)
+
+</details>  
