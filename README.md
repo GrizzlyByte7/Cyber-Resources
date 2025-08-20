@@ -1,4 +1,4 @@
-## 📑 Table of Contents  
+## Table of Contents  
 - [Forensics & Imaging](#forensics-imaging)  
 - [Hex Editors](#hex-editors)  
 - [Malware Analysis](#malware-analysis)  
@@ -25,7 +25,7 @@
 
 <!-- Forensics & Imaging -->  
 <a name="forensics-imaging"></a>  
-# 🕵️ Forensics & Imaging  
+# Forensics & Imaging  
 **Purpose:** Disk and memory acquisition, file carving, artifact parsing, and image analysis.
 
 <details>  
@@ -117,7 +117,7 @@
 
 <!-- Hex Editors -->  
 <a name="hex-editors"></a>  
-# 🔢 Hex Editors  
+# Hex Editors  
 **Purpose:** Binary and disk editing at the byte level.
 
 <details>  
@@ -145,7 +145,7 @@
 
 <!-- Malware Analysis -->  
 <a name="malware-analysis"></a>  
-# 🦠 Malware Analysis  
+# Malware Analysis  
 **Purpose:** Disassembly, sandboxing, and metadata extraction.
 
 <details>  
@@ -229,7 +229,7 @@
 
 <!-- Memory Forensics -->  
 <a name="memory-forensics"></a>  
-# 🧠 Memory Forensics  
+# Memory Forensics  
 **Purpose:** Acquire & analyze volatile memory images.
 
 <details>  
@@ -261,7 +261,7 @@
 
 <!-- OSINT -->  
 <a name="osint"></a>  
-# 🕸️ OSINT  
+# OSINT  
 **Purpose:** Open-source intelligence gathering & link analysis.
 
 <details>  
@@ -309,7 +309,7 @@
 
 <!-- Windows Artifact Analysis -->  
 <a name="windows-artifact-analysis"></a>  
-# 📂 Windows Artifact Analysis  
+# Windows Artifact Analysis  
 **Purpose:** Extract & parse Windows-specific forensic artifacts.
 
 <details>  
@@ -341,7 +341,7 @@
 
 <!-- Attack Simulation & Offense -->  
 <a name="attack-simulation--offense"></a>  
-# 🚩 Attack Simulation & Offense  
+# Attack Simulation & Offense  
 **Purpose:** Recon, scanning, exploitation, and red-team training platforms.
 
 <!-- Reconnaissance -->  
@@ -522,7 +522,7 @@
 
 <!-- Logging & SIEM -->  
 <a name="logging--siem"></a>  
-# 📊 Logging & SIEM  
+# Logging & SIEM  
 **Purpose:** Centralized log analysis, intrusion detection, and alerting.
 
 <details>  
@@ -570,7 +570,7 @@
 
 <!-- Threat Hunting & Detection Engineering -->  
 <a name="threat-hunting--detection-engineering"></a>  
-# 🔍 Threat Hunting & Detection Engineering  
+# Threat Hunting & Detection Engineering  
 **Purpose:** Hunt for anomalies, author detection rules, automate alerting.
 
 <details>  
@@ -606,7 +606,7 @@
 
 <!-- Purple-Team Collaboration -->  
 <a name="purple-team-collaboration"></a>  
-# 🎭 Purple-Team Collaboration  
+# Purple-Team Collaboration  
 **Purpose:** Share detections, adversary emulations, exercises.
 
 <details>  
@@ -634,7 +634,7 @@
 
 <!-- DFIR Case Management & Automation -->  
 <a name="dfir-case-management--automation"></a>  
-# 🗂️ DFIR Case Management & Automation  
+# DFIR Case Management & Automation  
 **Purpose:** Track investigations, share IOCs, automate repetitive tasks.
 
 <details>  
@@ -666,7 +666,7 @@
 
 <!-- Cloud Security & CSPM -->  
 <a name="cloud-security--cspm"></a>  
-# ☁️ Cloud Security & CSPM  
+# Cloud Security & CSPM  
 **Purpose:** Discover misconfigs, monitor cloud activity, enforce posture.
 
 <details>  
@@ -698,7 +698,7 @@
 
 <!-- Endpoint Telemetry & EDR -->  
 <a name="endpoint-telemetry--edr"></a>  
-# ⚙️ Endpoint Telemetry & EDR  
+# Endpoint Telemetry & EDR  
 **Purpose:** Collect detailed host data, hunt across endpoints.
 
 <details>  
@@ -738,7 +738,7 @@
 
 <!-- Configuration Management & Automation -->  
 <a name="configuration-management--automation"></a>  
-# 🔧 Configuration Management & Automation  
+# Configuration Management & Automation  
 **Purpose:** Infrastructure-as-code and orchestration for security deployments.
 
 <details>  
@@ -762,7 +762,7 @@
 
 <!-- Deployment & Self-Hosting -->  
 <a name="deployment-self-hosting"></a>  
-# 🛠️ Deployment & Self-Hosting  
+# Deployment & Self-Hosting  
 **Purpose:** Guides and best practices for self-hosting security tools and related services.
 
 <details>  
@@ -773,3 +773,4 @@
   [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
 
 </details>
+
