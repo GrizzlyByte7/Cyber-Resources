@@ -63,6 +63,10 @@
   Forensics & e-discovery suite for collection, analysis, compliance.  
   [Exterro](https://accessdata.com/product-download)
 
+- **FileInfo — File Types Reference**  
+  Extensive, searchable database of file extensions, file type descriptions, and associated programs — very handy for file identification, carving heuristics, and triage.  
+  [FileInfo: File Types](https://fileinfo.com/filetypes/)
+
 - **Foremost**  
   Recover files based on headers/footers.  
   [Foremost](https://foremost.sourceforge.net/)
@@ -773,4 +777,5 @@
   [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
 
 </details>
+
 
