@@ -87,6 +87,10 @@
   Check file hashes against NSRL to filter benign files.  
   [nsrllookup](https://github.com/rjhansen/nsrllookup)
 
+- **PALADIN Forensic Suite**
+  A bootable Linux-based forensic suite designed for forensically sound imaging, triage, and data recovery through a simplified GUI toolbox.
+  [PALADIN Forensic Suit](https://sumuri.com/software/paladin/?srsltid=AfmBOor2BaOg_UetZvlN1RWcZnOcjQPYNxQ8ozNdZwly3gWdeDfdA4p8)
+
 - **PhotoRec**  
   Recover lost files (videos, docs, archives) from disks, CDs.  
   [PhotoRec](https://www.cgsecurity.org/wiki/PhotoRec_Data_Carving)
@@ -777,5 +781,6 @@
   [mikeroyal/Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
 
 </details>
+
 
 
