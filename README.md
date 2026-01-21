@@ -236,6 +236,10 @@
 <details>  
 <summary>OSINT Frameworks and Tools</summary>
 
+- **Argus**
+  An all-in-one Python-powered toolkit designed to streamline reconnaissance and information gathering through an intuitive interface. It features a wide range of modules for efficiently assessing networks, web applications, and security environments with precision.
+  [Argus on GitHub](https://github.com/jasonxtn/Argus)
+
 - **ShadowDragon**
   A comprehensive OSINT platform focused on real-time data collection, link analysis, and investigative monitoring.
   [ShadowDragon](https://shadowdragon.io/)
@@ -336,6 +340,10 @@
 
 - **Aquatone** Visual domain reconnaissance.  
   [Aquatone](https://github.com/michenriksen/aquatone)
+
+  - **Argus**
+  An all-in-one Python-powered toolkit designed to streamline reconnaissance and information gathering through an intuitive interface. It features a wide range of modules for efficiently assessing networks, web applications, and security environments with precision.
+  [Argus on GitHub](https://github.com/jasonxtn/Argus)
 
 - **Assetfinder** Subdomain discovery.  
   [Assetfinder](https://github.com/tomnomnom/assetfinder)
@@ -611,3 +619,4 @@
   [Self-Hosting-Guide](https://github.com/mikeroyal/Self-Hosting-Guide)
 
 </details>
+
